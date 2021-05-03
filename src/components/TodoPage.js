@@ -1,6 +1,6 @@
 import React from 'react'
-import AddTodo from './AddTodo'
-import TodoList from './TodoList'
+import TodoListContainer from '../containers/TodoListContainer'
+import AddTodoContainer from '../containers/AddTodoContainer';
 
 class TodoPage extends React.Component {
     render() {
@@ -10,8 +10,8 @@ class TodoPage extends React.Component {
                     <div className='col-md-2'></div>
                     <div className='col-md-8'>
                         <div className='row'>
-                            <AddTodo/>
-                            <TodoList/>
+                            <AddTodoContainer/>
+                            <TodoListContainer/>
                         </div>
                     </div>
                     <div className='col-md-2'></div>    

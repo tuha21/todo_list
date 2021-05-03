@@ -1,0 +1,8 @@
+export const GET_LISTTODO = 'GET_LISTTODO'
+export const DELETE_TODO = 'DELETE_TODO'
+export const PAGINATION = 'PAGINATION'
+export const SET_TODO = 'SET_TODO'
+export const ADD_TODO = 'ADD_TODO'
+export const UPDATE_TODO = 'UPDATE_TODO'
+export const SET_ACTION = 'SET_ACTION'
+export const RESULT = 'RESULT'
